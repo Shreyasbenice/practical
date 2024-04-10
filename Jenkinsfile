@@ -42,6 +42,7 @@ pipeline {
     post {
         always {
             // Clean up steps, if any
+            echo 'always'
         }
 
         success {
